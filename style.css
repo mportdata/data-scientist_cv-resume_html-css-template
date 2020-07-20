@@ -1,0 +1,128 @@
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+/* MY STYLING */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.2;
+  background: #F2F2F2;
+  color: #323232;
+}
+
+a{
+  color: #323232;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.container{
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 32px;
+  background: white;
+  box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+}
+
+section{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+  padding: 24px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+section:last-child{
+  border-bottom: none;
+}
+
+.heading{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sub-heading{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sub-sub-heading{
+  font-size: 17px;
+}
+
+.date{
+  opacity: 0.75;
+  font-size: 16px;
+}
+
+/* Main Info */
+
+.my-name{
+  font-size: 48px;
+  line-height: 1;
+}
+
+.my-title{
+  font-size: 36px;
+  font-weight: 300;
+  color: #236FB2;
+}
+
+.links{
+  display: flex;
+  margin: 10px 0 20px 0;
+  align-items: center;
+  flex: 1;
+}
+
+.link-item svg{
+  margin-right: 6px;
+}
+
+/* main body */
+.section-container{
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.section-container:last-child{
+  border-bottom: none;
+}
+
+.heading{
+  color: #236FB2
+}
+
+.skills-list {
+  list-style-type: circle;
+  list-style-position: inside;
+}
